@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+"""
+I made the assumption that the XML would be passed as a code in the url. In order to get this code to work I had to change the quotation marks as provided in the word file.
+
+"""
+
 import web
 import xml.etree.ElementTree as ET
 
